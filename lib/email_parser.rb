@@ -14,6 +14,8 @@ class EmailAddressParser
   def parse
     addresses = []
     emails
+    binding.pry
+    
 
 
 
