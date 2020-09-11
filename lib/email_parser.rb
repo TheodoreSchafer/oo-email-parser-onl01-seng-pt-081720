@@ -13,6 +13,7 @@ class EmailAddressParser
 
   def parse
     @emails
+      binding.pry
     
     @emails = @emails.gsub(/[\,]/ , " ").split
     #gsub! is a String class method
@@ -20,7 +21,7 @@ class EmailAddressParser
     #and substitutes the pattern of " "
 
     @emails.uniq
-    binding.pry
+  
 
   end
 
