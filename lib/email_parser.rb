@@ -11,7 +11,7 @@ class EmailAddressParser
   end
 
   def parse
-    emails.collect{|emails| emails}
+    emails.collect{}
 
 
 
