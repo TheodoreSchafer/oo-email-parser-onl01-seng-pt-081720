@@ -12,7 +12,9 @@ class EmailAddressParser
   end
 
   def parse
-  
+    #@emails would just reaturn a string of the emails, in quotations
+    
+
     @emails = @emails.gsub(/[\,]/ , " ").split
     #gsub! is a String class method
     #returns a copy of the given string with occurence of the [\,] pattern
