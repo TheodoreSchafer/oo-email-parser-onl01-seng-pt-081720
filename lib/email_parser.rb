@@ -14,7 +14,7 @@ class EmailAddressParser
   def parse
     @emails = @emails.gsub(/[\,]/ , " ").split
     #gsub! is a String class method
-    #returns a copy of the given string with occurence of the [\,] pattern 
+    #returns a copy of the given string with occurence of the [\,] pattern
     #and substitutes the pattern of " "
 
     @emails.uniq
