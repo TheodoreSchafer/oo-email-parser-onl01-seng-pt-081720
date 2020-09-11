@@ -12,15 +12,7 @@ class EmailAddressParser
   end
 
   def parse
-    
-    emails.sort
-
-
-
-
-
-
-  end
+    end
 
 
 
