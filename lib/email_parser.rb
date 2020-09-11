@@ -13,8 +13,8 @@ class EmailAddressParser
 
   def parse
     addresses = []
-    emails.collect
-    binding.pry
+    emails.sort
+
 
 
 
